@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
     <title>NexCodeCourse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth&family=Bree+Serif&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
@@ -24,8 +27,7 @@
         <div class="container">
             <!-- Navbar brand -->
             <a class="navbar-brand me-2" href="https://mdbgo.com/">
-                <img src="logo.png" height="50" alt="MDB Logo"
-                    loading="lazy" style="margin-top: -1px;" />
+                <img src="logo.png" height="50" alt="MDB Logo" loading="lazy" style="margin-top: -1px;" />
             </a>
 
             <!-- Toggle button -->
@@ -52,8 +54,8 @@
                 <!-- Left links -->
 
                 <div class="button">
-                    <button class="btn">SIGN IN</button>
-                    <button class="btn">SIGN UP</button>
+                    <button class="btn1">SIGN IN</button>
+                    <button class="btn1">SIGN UP</button>
                 </div>
             </div>
             <!-- Collapsible wrapper -->
@@ -63,19 +65,390 @@
     <!-- Navbar -->
 
     <div class="bg-image">
-        <img
-          src="bg.jpg"
-          class="img"
-          alt="Sample"
-        />
+        <img src="bg.jpg" class="img" alt="Sample" />
         <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-          <div class="d-flex justify-content-center align-items-center h-100">
-            <p class="text-white mb-0">Taking Your Coding to the Next Level</p>
-          </div>
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <p id="para1" class="text-white mb-0">Taking Your Coding to the Next Level</p>
+            </div>
         </div>
-      </div>
+    </div>
 
+    <div class="section-title text-center">
+        <h2 class="heading2">Our Courses</h2>
+    </div>
+
+    <div class="d-flex row justify-content-between" style=" margin: 20px; ">
+        <div id="courseBox" class="col-md-3">
+            <div class="number" style="opacity: 0.5;">
+                01
+            </div>
+            <div class="content2">
+                <div>
+                    <h3> Responsive Web Design Course</h3>
+                </div>
+                <div>
+                    <span id="icon1" class="fa-solid fa-wand-magic-sparkles">
+
+                    </span>
+                </div>
+            </div>
+            <p class="content3">
+                Adopt the Basics of HTML and HTML 5, as well as Basic CSS, CSS Flexbox, and CSS Grid.
+            </p>
+        </div>
+
+        <div id="courseBox" class="col-md-3">
+            <div class="number" style="opacity: 0.5;">
+                02
+            </div>
+            <div class="content2">
+                <div>
+                    <h3>JavaScript Algorithms And Data Structures</h3>
+                </div>
+                <div>
+                    <span id="icon1" class="fa-brands fa-js">
+
+                    </span>
+                </div>
+            </div>
+            <p class="content3">
+                This course covers Basic JavaScript, JavaScript ES6, along with Debugging.
+            </p>
+        </div>
+
+        <div id="courseBox" class="col-md-3">
+            <div class="number" style="opacity: 0.5;">
+                03
+            </div>
+            <div class="content2">
+                <div>
+                    <h3>Front End Libraries</h3>
+                </div>
+                <div>
+                    <span id="icon1" class="fa-solid fa-bullhorn">
+
+                    </span>
+                </div>
+            </div>
+            <p class="content3">
+                Browse the production environments for software such as jQuery, React, Bootstrap, and Redux. </p>
+        </div>
+
+        <div id="courseBox" class="col-md-3">
+            <div class="number" style="opacity: 0.5;">
+                04
+            </div>
+            <div class="content2">
+                <div>
+                    <h3>Data Visualisation</h3>
+                </div>
+                <div>
+                    <span id="icon1" class="fa-solid fa-pen-to-square">
+                    </span>
+                </div>
+            </div>
+            <p class="content3">
+                Discover Data Visualization skills by means of this course on 3D, JSON APIs, and AJAX.
+            </p>
+        </div>
+
+        <div id="courseBox" class="col-md-3">
+            <div class="number" style="opacity: 0.5;">
+                05
+            </div>
+            <div class="content2">
+                <div>
+                    <h3>APIs And Microservices</h3>
+                </div>
+                <div>
+                    <span id="icon1" class="fa-brands fa-quinscape"></span>
+
+
+                </div>
+            </div>
+            <p class="content3">
+                Practice with Basic Node and Express, nmp, in addition to MongoDB, Mongoose
+            </p>
+        </div>
+
+        <div id="courseBox" class="col-md-3">
+            <div class="number" style="opacity: 0.5;">
+                06
+            </div>
+            <div class="content2">
+                <div>
+                    <h3>Coding Interview Preparation</h3>
+                </div>
+                <div>
+                    <span id="icon1" class="fa-solid fa-code-branch">
+
+                    </span>
+                </div>
+            </div>
+            <p class="content3">
+                Try testing yourself with these questions to ask your interviewer for a programming job.
+            </p>
+        </div>
+
+        <div id="courseBox" class="col-md-3">
+            <div class="number" style="opacity: 0.5;">
+                07
+            </div>
+            <div class="content2">
+                <div>
+                    <h3>Information Security And Quality Assurance</h3>
+                </div>
+                <div>
+                    <span id="icon1" class="fa-solid fa-shield">
+
+                    </span>
+                </div>
+            </div>
+            <p class="content3">
+                Enhance your skills in Node and Express, as well as HelmetJS and Quality Assurance with Chai.
+            </p>
+        </div>
+
+        <div>
+            <h4 class="heading3">We offer a range of flexible and relevant courses.</h4>
+        </div>
+
+        <div>
+            <button class="btn2 "><a href=""></a> MORE COURSE</button>
+        </div>
+
+
+        <div class="container1">
+            <img src="contact.jpg " alt="">
+            <div class="contact" style="color:white;padding-bottom: 5%;">Contact Information</div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div>
+                        <h4 style="color:white;justify-content: center; align-items: center; display: flex;">
+                            <i class="fa-solid fa-mobile"></i>
+                            Phone</h4>
+                        <p  style="color:white;justify-content: center; align-items: center; display: flex;">+911234567890</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div>
+                        <h4  style="color:white;justify-content: center; align-items: center; display: flex;">
+                            <i class="fa-solid fa-at"></i>
+                            Email</h4>
+                        <p  style="color:white;justify-content: center; align-items: center; display: flex;">info@nexcodecourse.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div>
+                        <h4  style="color:white;justify-content: center; align-items: center; display: flex;">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Address</h4>
+                        <p  style="color:white;justify-content: center; align-items: center; display: flex;">Kashipur, Uttarakhand</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div>
+                        <h3 class="headingh3">Pricing</h3>
+                    </div>
+                </div>
+                <div class="col-12" style="display: flex; justify-content: space-around;">
+                    <div class="princing-table-card">
+                        <div class="mb-3" style="background:orangered; font-family: 'Bree Serif', serif; ">
+                            <h4 class="text-center text-white">PREMIUM</h4>
+                        </div>
+                        <div style="display: flex; flex-direction: row; justify-content: space-around;">
+                            <span>RS</span>
+                            <h2 style="font-size: 80px; color: black;">999</h2>
+                                <span style="transform: translateY(60px);">30 days access</span>
+
+                        </div>
+                        <div style="align-items: center; justify-content: center; display: flex;">3-days trial period /
+                            Rs100</div>
+                        <hr style="color: black;">
+                        <div class="price-f mb-5">
+                            <p class="mb-3 price-area"
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Premiun Support
+                            </p>
+                            <hr>
+                            <p class="mb-3 price-area"
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Setup of reminder emails
+                            </p>
+                            <hr>
+                            <p class="mb-3 price-area"
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Progress tracking
+                            </p>
+                            <hr>
+                            <p class="mb-3 price-area"
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Early access to new features
+                            </p>
+                            <hr>
+                            <p class="mb-3 price-area"
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Simple, easy and flexible learing
+                            </p>
+                            <hr>
+                            <p class="mb-3 price-area"
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Different types of courses
+                            </p>
+                            <hr>
+                            <p class="mb-3 price-area"
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <i class="fa-solid fa-circle-check"></i>
+                                User-friendly interface
+                            </p>
+                            <hr>
+                        </div>
+
+                    </div>
+                    <div class="princing-table-card">
+                        <div class="mb-3" style="background:orangered; font-family: 'Bree Serif', serif;">
+                            <h4 class="text-center text-white">GOLD</h4>
+                        </div>
+                        <div style="display: flex; flex-direction: row; justify-content: space-around;">
+                            <span>RS</span>
+                            <h2 style="font-size: 80px; color: black;" >1999</h2>
+                                <span style="transform: translateY(60px);">90 days access</span>
+
+                        </div>
+                        <div style="align-items: center; justify-content: center; display: flex;">3-days trial period /
+                            Rs150</div>
+                        <hr>
+                        <div class="price-f mb-5">
+                            <p class="mb-3 price-area"
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Premiun Support
+                            </p>
+                            <hr>
+                            <p class="mb-3 price-area"
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Setup of reminder emails
+                            </p>
+                            <hr>
+                            <p class="mb-3 price-area"
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Progress tracking
+                            </p>
+                            <hr>
+                            <p class="mb-3 price-area"
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Early access to new features
+                            </p>
+                            <hr>
+                            <p class="mb-3 price-area"
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Simple, easy and flexible learing
+                            </p>
+                            <hr>
+                            <p class="mb-3 price-area"
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Different types of courses
+                            </p>
+                            <hr>
+                            <p class="mb-3 price-area"
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <i class="fa-solid fa-circle-check"></i>
+                                User-friendly interface
+                            </p>
+                            <hr>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="text-white text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4"  >
+          <!--Grid row-->
+          <div class="row" style="height: 300px;  ">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0" >
+              <img src="logo.png" alt="" style="height: 70px; margin-top: 60px; ">
+            </div>
+            <!--Grid column-->
+            
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 id="h5" class="text-uppercase mb-0" style="left: 0px;">Usefull Links</h5>
       
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-white">About Us</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Contact Us</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Terms & Condition</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Privacy Policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 id="h5" class="text-uppercase">Links</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Email: info@nexcodecourse.com</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Call: +911234567890</a>
+                </li>
+                <p>
+                    Working Hours: Monday - Friday 9 Am - 6 Pm, Weekends 10 Am - 4 Pm
+                </p>
+
+                <p>
+                    Address : Kashipur,Utttarakhand
+                </p>
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: #00000000;">
+          ©2023 Copyright:
+          <a class="text-white" href="https://nexcodecourse.com">nexcodecourse.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
 </body>
 
 </html>
